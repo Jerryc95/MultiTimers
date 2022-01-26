@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB91DF00279F7BF0007B514B /* CustomProgressStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB91DEFF279F7BF0007B514B /* CustomProgressStyle.swift */; };
 		FBE1A0A52798F81F00124A48 /* MultiTimersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1A0A42798F81F00124A48 /* MultiTimersApp.swift */; };
 		FBE1A0A72798F81F00124A48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1A0A62798F81F00124A48 /* ContentView.swift */; };
 		FBE1A0A92798F82100124A48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBE1A0A82798F82100124A48 /* Assets.xcassets */; };
@@ -15,11 +16,11 @@
 		FBE1A0B92799B08D00124A48 /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1A0B82799B08D00124A48 /* ColorPalette.swift */; };
 		FBE1A0BB2799E25800124A48 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1A0BA2799E25800124A48 /* AddView.swift */; };
 		FBE1A0C22799F1D200124A48 /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1A0C12799F1D200124A48 /* CustomButtonStyle.swift */; };
-		FBE1A0C4279A350100124A48 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1A0C3279A350100124A48 /* ProgressView.swift */; };
 		FBE1A0C6279B020700124A48 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1A0C5279B020700124A48 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB91DEFF279F7BF0007B514B /* CustomProgressStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressStyle.swift; sourceTree = "<group>"; };
 		FBE1A0A12798F81F00124A48 /* MultiTimers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiTimers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBE1A0A42798F81F00124A48 /* MultiTimersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiTimersApp.swift; sourceTree = "<group>"; };
 		FBE1A0A62798F81F00124A48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -30,7 +31,6 @@
 		FBE1A0BA2799E25800124A48 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		FBE1A0BF2799E96700124A48 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Info.plist"; sourceTree = "<group>"; };
 		FBE1A0C12799F1D200124A48 /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
-		FBE1A0C3279A350100124A48 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		FBE1A0C5279B020700124A48 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,8 +69,8 @@
 				FBE1A0C12799F1D200124A48 /* CustomButtonStyle.swift */,
 				FBE1A0B42798F9F800124A48 /* Timer.swift */,
 				FBE1A0A62798F81F00124A48 /* ContentView.swift */,
+				FB91DEFF279F7BF0007B514B /* CustomProgressStyle.swift */,
 				FBE1A0C5279B020700124A48 /* CardView.swift */,
-				FBE1A0C3279A350100124A48 /* ProgressView.swift */,
 				FBE1A0B82799B08D00124A48 /* ColorPalette.swift */,
 				FBE1A0A82798F82100124A48 /* Assets.xcassets */,
 				FBE1A0BF2799E96700124A48 /* Info.plist */,
@@ -161,9 +161,9 @@
 				FBE1A0BB2799E25800124A48 /* AddView.swift in Sources */,
 				FBE1A0A72798F81F00124A48 /* ContentView.swift in Sources */,
 				FBE1A0A52798F81F00124A48 /* MultiTimersApp.swift in Sources */,
-				FBE1A0C4279A350100124A48 /* ProgressView.swift in Sources */,
 				FBE1A0C22799F1D200124A48 /* CustomButtonStyle.swift in Sources */,
 				FBE1A0C6279B020700124A48 /* CardView.swift in Sources */,
+				FB91DF00279F7BF0007B514B /* CustomProgressStyle.swift in Sources */,
 				FBE1A0B52798F9F800124A48 /* Timer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

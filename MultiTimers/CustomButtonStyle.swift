@@ -10,10 +10,10 @@ import SwiftUI
 struct CustomButtonStyle: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
-            .font(.custom("Quicksand-Bold", size: 25))
+            .font(.subheadline)
             .frame(width: 150, height: 50)
-            .background(Color.cream)
-            .foregroundColor(.newRed)
+            .background(Color.blue)
+            .foregroundColor(.white)
             .clipShape(RoundedRectangle(cornerRadius: 25))
             .overlay(
                 Color.black
